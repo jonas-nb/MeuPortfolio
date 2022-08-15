@@ -1,6 +1,6 @@
 <h1 align='center'>Meu Portfólio</h1>
 </br>
-<p align='center'>Construído usando técnica de API rest, a aplicação gera um conselho aleatório fornecido pela api publica Advice Slip(https://api.adviceslip.com/) fazendo uma divertida interação, o projeto também apresenta o uso de css grid e flex box </p>
+<p align='center'>EM CONSTRUÇÃO 🚧👷🏾‍♂️</p>
 
 <img src='src/assets/images/app.png/'>
 <br/>
