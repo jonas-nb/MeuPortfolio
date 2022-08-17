@@ -4,9 +4,13 @@ import LogoWhite from '../../assets/images/white-logo.png';
 
 const Menu = () => {
     return (
-        <div>
+        <div className="border border-red-500 flex w-full h-16">
             {/* aplicar logo conforme state (preto e branco) */}
-            <img src={LogoBlack} alt="logo do projeto" />
+            <img
+                className="object-contain w-10 h-20"
+                src={LogoBlack}
+                alt="logo do projeto"
+            />
             <nav>
                 <ul>
                     <li>About</li>
