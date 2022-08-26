@@ -20,6 +20,7 @@ The designs were created to the following widths:
 -   ~ Cadet Blue Crayola: #ADB5BD
 -   ~ Onyx: #343A40
 -   ~ Sonic Silver: #343A40
+    #4dffa6
 
 ## Typography
 

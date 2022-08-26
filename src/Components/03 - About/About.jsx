@@ -13,9 +13,11 @@ descrição = adciona um parágrafo para descrever habilidade */
 
 const About = () => {
     return (
-        <div>
-            <h1>O que faço!</h1>
-            <div>
+        <div className="m-auto mt-36">
+            <h1 className="text-center font-[600] drop-shadow-md">
+                O que faço!
+            </h1>
+            <div className="mt-10">
                 <div>
                     <SkillComponent
                         habilidade="Desenvolvimento Web"
@@ -37,7 +39,7 @@ const About = () => {
                         habilidade="Network e Altruísmo"
                         icone={NetworkIcon}
                         alt="icone mostrando aperto de mãos"
-                        descrição="Busco me conectar a pessoas e novas ideias acreditando que esse mundo é uma grande rede, uma das coisas que mais gosto no mundo do desenvolvimento é ajudar pessoas que estão ingressando na area atualmente."
+                        descrição="Busco me conectar a pessoas e novas ideias acreditando que somos uma grande rede, uma das coisas que mais gosto no mundo do desenvolvimento é ajudar pessoas que estão ingressando na area atualmente."
                     />
                 </div>
                 <div>
@@ -45,7 +47,7 @@ const About = () => {
                         habilidade="Outras Atividades"
                         icone={HobbieIcon}
                         alt="icone mostrando montagem de um quebra cabeça"
-                        descrição="Além de codar e desenvolver, meus principais hobbies são basketball, instrumentos musicais, leitura e aperfeiçoamento pessoal o que sempre está me ajudando a evoluir softskills."
+                        descrição="Além de codar e desenvolver, meus principais hobbies são basquete, instrumentos musicais, leitura e séries."
                     />
                 </div>
             </div>

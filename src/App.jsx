@@ -9,7 +9,10 @@ import Footer from './Components/06 - Footer/Footer';
 const App = () => {
     return (
         <div>
-            <Menu />
+            <header>
+                <Menu />
+            </header>
+
             <Presentation />
             <About />
             <Works />

@@ -1,21 +1,31 @@
-import React from 'react';
-import LogoBlack from '../../assets/images/black-logo.png';
-import LogoWhite from '../../assets/images/white-logo.png';
+import { useContext, useEffect, useState } from 'react';
+import LogoBlack from '../../assets/images/2.png';
+import LogoWhite from '../../assets/images/1.png';
+import { ScrollContext } from '../../Contexts/ScrollContext';
 
 const Menu = () => {
+    const { scrollValue } = useContext(ScrollContext);
+
     return (
-        <div className="border border-red-500 flex w-full h-16">
+        <div
+            className={`${
+                scrollValue !== 0
+                    ? 'bg-[#fff] text-black drop-shadow-md'
+                    : 'bg-[#212529] text-white '
+            }  pt-1 w-full h-16 flex items-center fixed z-10 text-md font-[600] transition duration-1000 ease-linear all  `}
+        >
             {/* aplicar logo conforme state (preto e branco) */}
             <img
-                className="object-contain w-10 h-20"
-                src={LogoBlack}
+                className="w-12 h-12 rounded-full ml-2 mt-2 mb-2"
+                // Recebe o efeito
+                src={scrollValue !== 0 ? LogoBlack : LogoWhite}
                 alt="logo do projeto"
             />
-            <nav>
-                <ul>
-                    <li>About</li>
-                    <li>Works</li>
-                    <li>Contacts</li>
+            <nav className="m-auto mt-5 w-60 ">
+                <ul className="flex justify-between">
+                    <li>Sobre</li>
+                    <li>Trabalhos</li>
+                    <li>Contatos</li>
                 </ul>
             </nav>
         </div>
