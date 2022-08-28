@@ -12,7 +12,7 @@ const Menu = () => {
                 scrollValue !== 0
                     ? 'bg-[#fff] text-black drop-shadow-md'
                     : 'bg-[#212529] text-white '
-            }  pt-1 w-full h-16 flex items-center fixed z-10 text-md font-[600] transition duration-1000 ease-linear all  `}
+            }  pt-1 w-full h-16 flex items-center fixed z-50 text-md font-[600] transition duration-1000 ease-linear all  `}
         >
             {/* aplicar logo conforme state (preto e branco) */}
             <img

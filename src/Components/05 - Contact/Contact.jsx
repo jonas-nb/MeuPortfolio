@@ -3,7 +3,7 @@ import Send from './Send';
 
 const Contact = () => {
     return (
-        <div>
+        <div className="">
             <Send />
         </div>
     );

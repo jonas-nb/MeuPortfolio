@@ -17,6 +17,7 @@
     "react-icons": "^4.4.0",
     "react-scroll": "^1.8.7",
     "react-scroll-motion": "^0.3.0",
+    "styled-components": "^5.3.5",
     "vivus": "^0.4.6"
   },
   "devDependencies": {

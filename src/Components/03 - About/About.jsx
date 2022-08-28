@@ -22,7 +22,7 @@ const About = () => {
                     <SkillComponent
                         habilidade="Desenvolvimento Web"
                         icone={WebIcon}
-                        alt="icone mostrando uma tela ilustrativa"
+                        alt="ícone mostrando uma tela ilustrativa"
                         descrição="Eu desenvolvo apps com React.js, adoro construir layouts responsivos e interfaces interativas, semânticas e acessíveis."
                     />
                 </div>
