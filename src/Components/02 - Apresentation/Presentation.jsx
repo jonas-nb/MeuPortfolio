@@ -11,7 +11,7 @@ const Presentation = () => {
                 <h3 className="wobble-hor-bottom">Olá Mundo 🌐!</h3>
                 <h1 className="text-focus-in mt-5 flex flex-col text-2xl">
                     Me Chamo
-                    <span className="text-[#fff] text-5xl tracking-[-.08rem]">
+                    <span className="text-[#fff] text-4xl tracking-[-.08rem]">
                         Jonas Batista
                     </span>
                 </h1>

@@ -3,7 +3,7 @@ import Send from './Send';
 
 const Contact = () => {
     return (
-        <div className="">
+        <div className="mt-10">
             <Send />
         </div>
     );

@@ -11,9 +11,9 @@ const MenuNetwork = () => {
     return (
         <div
             className={
-                scrollValue < 669
+                scrollValue < 669 || scrollValue > 2102
                     ? ' hidden '
-                    : 'fade-in text-flicker-in-glow flex flex-col justify-between fixed top-[5rem] left-2 h-16  text-2xl'
+                    : 'z-30 fade-in text-flicker-in-glow flex flex-col justify-between fixed top-[5rem] left-2 h-16  text-2xl'
             }
         >
             <a

@@ -5,9 +5,28 @@ import { ScrollContext } from '../../Contexts/ScrollContext';
 
 const Menu = () => {
     const { scrollValue } = useContext(ScrollContext);
+    const ScrollAbout = () => {
+        window.scrollTo({
+            top: 604,
+            behavior: 'smooth',
+        });
+    };
+    const ScrollWork = () => {
+        window.scrollTo({
+            top: 2164,
+            behavior: 'smooth',
+        });
+    };
+    const ScrollContat = () => {
+        window.scrollTo({
+            top: 3764,
+            behavior: 'smooth',
+        });
+    };
 
     return (
         <div
+            onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
             className={`${
                 scrollValue !== 0
                     ? 'bg-[#fff] text-black drop-shadow-md'
@@ -23,9 +42,15 @@ const Menu = () => {
             />
             <nav className="m-auto mt-5 w-60 ">
                 <ul className="flex justify-between">
-                    <li>Sobre</li>
-                    <li>Trabalhos</li>
-                    <li>Contatos</li>
+                    <li className="cursor-pointer" onClick={ScrollAbout}>
+                        Sobre
+                    </li>
+                    <li className="cursor-pointer" onClick={ScrollWork}>
+                        Trabalhos
+                    </li>
+                    <li className="cursor-pointer" onClick={ScrollContat}>
+                        Contatos
+                    </li>
                 </ul>
             </nav>
         </div>
