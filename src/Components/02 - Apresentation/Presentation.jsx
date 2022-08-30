@@ -23,7 +23,7 @@ const Presentation = () => {
                         <div className="text-focus-in bg-white hover:bg-[#b3ffd9] focus:bg-[#9dffce] transition-all ease-linear duration-700 text-black h-10 w-32 rounded-sm shadow-md shadow-[#0000005c] ">
                             <a
                                 className="w-full h-full flex items-center justify-center font-[700] text-black hover:text-[#424242] transition-all ease-linear duration-700"
-                                href="https://drive.google.com/uc?export=download&id=14lH2gD0WxbWwZM7p2xSz74B-Wi855xkv"
+                                href="https://drive.google.com/uc?export=download&id=1QEqhGJpWFN1sKez4UA_czpx7DDXrziw_"
                                 target={'_blank'}
                                 download="CV"
                             >
