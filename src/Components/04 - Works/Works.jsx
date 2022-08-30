@@ -20,9 +20,8 @@ const Works = () => {
             <h1 className="text-center text-[2.4rem] font-[600] drop-shadow-md">
                 Trabalhos
             </h1>
-            {/* carrousel com main project */}
 
-            <div>
+            <div className="lg:grid lg:grid-cols-2 xl:grid-cols-3">
                 <Card
                     github="https://github.com/jonas-nb/PokeInit"
                     link="https://fancy-chebakia-587538.netlify.app/"

@@ -22,7 +22,7 @@ const Menu = () => {
                 src={scrollValue !== 0 ? LogoBlack : LogoWhite}
                 alt="logo do projeto"
             />
-            <nav className="m-auto w-60">
+            <nav className="m-auto w-60 sm:w-72 sm:pr-10 sm:text-lg">
                 <ul className="flex justify-between">
                     <a
                         onClick={() =>

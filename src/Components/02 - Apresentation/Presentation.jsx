@@ -11,11 +11,11 @@ const Presentation = () => {
                 <h3 className="wobble-hor-bottom">Olá Mundo 🌐!</h3>
                 <h1 className="text-focus-in mt-5 flex flex-col text-2xl">
                     Me Chamo
-                    <span className="text-[#fff] text-4xl tracking-[-.08rem]">
+                    <span className="text-[#fff] text-4xl lg:text-[5rem] lg:pt-5 tracking-[-.08rem]">
                         Jonas Batista
                     </span>
                 </h1>
-                <h3 className="text-focus-in text-lg mt-3">
+                <h3 className="text-focus-in text-lg mt-3 lg:pt-2">
                     Eu sou Desenvolvedor Front-End
                 </h3>
                 <div className="m-auto mt-5 flex justify-center  uppercase">

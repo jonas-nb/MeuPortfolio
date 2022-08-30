@@ -6,6 +6,7 @@ import NetworkIcon from '../../assets/images/icon-network.png';
 import HobbieIcon from '../../assets/images/icon-hobbie.png';
 /* 
 props
+borda = adciona borda no componente
 icone = adciona o icone
 alt = recebe a descrição do icone
 habilidade = adciona a habilidade
@@ -13,13 +14,14 @@ descrição = adciona um parágrafo para descrever habilidade */
 
 const About = () => {
     return (
-        <div className="m-auto mt-36">
+        <div className="m-auto mt-36 lg:mt-48">
             <h1 className="text-center text-[2.4rem] font-[600] drop-shadow-md">
                 O que faço!
             </h1>
-            <div className="mt-10">
+            <div className="mt-10 lg:grid lg:grid-cols-2 lg:grid-rows-2 lg:place-content-between">
                 <div>
                     <SkillComponent
+                        borda="lg:border-b-2"
                         habilidade="Desenvolvimento Web"
                         icone={WebIcon}
                         alt="ícone mostrando uma tela ilustrativa"
@@ -28,6 +30,7 @@ const About = () => {
                 </div>
                 <div>
                     <SkillComponent
+                        borda="lg:border-l-2 lg:border-b-2"
                         habilidade="Estudos"
                         icone={AlunoIcon}
                         alt="icone mostrando um estudante"
@@ -44,6 +47,7 @@ const About = () => {
                 </div>
                 <div>
                     <SkillComponent
+                        borda="lg:border-l-2"
                         habilidade="Outras Atividades"
                         icone={HobbieIcon}
                         alt="icone mostrando montagem de um quebra cabeça"
