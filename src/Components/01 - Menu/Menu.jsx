@@ -5,52 +5,61 @@ import { ScrollContext } from '../../Contexts/ScrollContext';
 
 const Menu = () => {
     const { scrollValue } = useContext(ScrollContext);
-    const ScrollAbout = () => {
-        window.scrollTo({
-            top: 604,
-            behavior: 'smooth',
-        });
-    };
-    const ScrollWork = () => {
-        window.scrollTo({
-            top: 2164,
-            behavior: 'smooth',
-        });
-    };
-    const ScrollContat = () => {
-        window.scrollTo({
-            top: 3764,
-            behavior: 'smooth',
-        });
-    };
 
     return (
         <div
-            onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
             className={`${
                 scrollValue !== 0
                     ? 'bg-[#fff] text-black drop-shadow-md'
                     : 'bg-[#212529] text-white '
-            }  pt-1 w-full h-16 flex items-center fixed z-50 text-md font-[600] transition duration-1000 ease-linear all  `}
+            }  flex w-full h-16 fixed z-50 text-md font-[600] transition duration-1000 ease-linear all  `}
         >
             {/* aplicar logo conforme state (preto e branco) */}
             <img
-                className="w-12 h-12 rounded-full ml-2 mt-2 mb-2"
+                onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+                className="w-12 h-12 rounded-full  cursor-pointer mt-2 ml-1"
                 // Recebe o efeito
                 src={scrollValue !== 0 ? LogoBlack : LogoWhite}
                 alt="logo do projeto"
             />
-            <nav className="m-auto mt-5 w-60 ">
+            <nav className="m-auto w-60">
                 <ul className="flex justify-between">
-                    <li className="cursor-pointer" onClick={ScrollAbout}>
+                    <a
+                        onClick={() =>
+                            window.scrollTo({ top: 600, behavior: 'smooth' })
+                        }
+                        className={`${
+                            scrollValue !== 0
+                                ? 'text-black hover:text-[#06404b]'
+                                : ' text-white hover:text-[#74ff92]'
+                        }  drop-shadow-md font-[600] transition duration-1000 ease-linear all cursor-pointer`}
+                    >
                         Sobre
-                    </li>
-                    <li className="cursor-pointer" onClick={ScrollWork}>
+                    </a>
+                    <a
+                        onClick={() =>
+                            window.scrollTo({ top: 2144, behavior: 'smooth' })
+                        }
+                        className={`${
+                            scrollValue !== 0
+                                ? 'text-black hover:text-[#06404b]'
+                                : ' text-white hover:text-[#74ff92]'
+                        }  drop-shadow-md font-[600] transition duration-1000 ease-linear all cursor-pointer`}
+                    >
                         Trabalhos
-                    </li>
-                    <li className="cursor-pointer" onClick={ScrollContat}>
-                        Contatos
-                    </li>
+                    </a>
+                    <a
+                        onClick={() =>
+                            window.scrollTo({ top: 3744, behavior: 'smooth' })
+                        }
+                        className={`${
+                            scrollValue !== 0
+                                ? 'text-black hover:text-[#06404b]'
+                                : ' text-white hover:text-[#74ff92]'
+                        }  drop-shadow-md font-[600] transition duration-1000 ease-linear all cursor-pointer`}
+                    >
+                        Contato
+                    </a>
                 </ul>
             </nav>
         </div>
