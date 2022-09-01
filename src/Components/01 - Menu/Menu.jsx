@@ -5,7 +5,7 @@ import { ScrollContext } from '../../Contexts/ScrollContext';
 
 const Menu = () => {
     const { scrollValue, mQuery } = useContext(ScrollContext);
-    console.log(mQuery.matches);
+
     return (
         <div
             className={`${

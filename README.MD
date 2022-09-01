@@ -10,17 +10,17 @@
 </br>
 
 <h2>Stack utilizada 🛠</h2>
-<p><b>Front-end:</b> React, TailwindCSS, Axios</p>
+<p><b>Front-end:</b> React, TailwindCSS, Vite, Context-api</p>
 
 </br>
 
 ## Instalação ⚙
 
-Instale AdviceApp com npm
+Instale Meu Portfólio com npm
 
 ```bash
-  git clone https://github.com/jonas-nb/AdviceApp
-  cd AdviceApp
+  git clone https://github.com/jonas-nb/MeuPortfolio
+  cd meu-portfolio
   npm install
   npm start
 ```
@@ -34,13 +34,6 @@ Para fazer o deploy desse projeto rode
 ```bash
   npm run build
 ```
-
-<br/>
-
-## Referência 📚
-
--   [Design preview for the Advice generator app coding challenge](./design/desktop-preview.jpg)
--   [Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
 
 <br/>
 
