@@ -1,13 +1,9 @@
 <h1 align='center'>Meu Portfólio</h1>
 </br>
-<p align='center'>EM CONSTRUÇÃO 🚧👷🏾‍♂️</p>
+<p align='center'>Usando um layout responsivo e técnica de state-management, portfólio construído para divulgação de meus projetos pessoais</p>
 
 <img src='src/assets/images/app.png/'>
 <br/>
-
-<h2 >Demonstração 📺</h2>
-<img src='src/assets/images/gif.gif'/>
-</br>
 
 <h2>Stack utilizada 🛠</h2>
 <p><b>Front-end:</b> React, TailwindCSS, Vite, Context-api</p>
