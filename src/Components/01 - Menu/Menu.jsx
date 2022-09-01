@@ -4,8 +4,8 @@ import LogoWhite from '../../assets/images/1.png';
 import { ScrollContext } from '../../Contexts/ScrollContext';
 
 const Menu = () => {
-    const { scrollValue } = useContext(ScrollContext);
-
+    const { scrollValue, mQuery } = useContext(ScrollContext);
+    console.log(mQuery.matches);
     return (
         <div
             className={`${
@@ -26,7 +26,15 @@ const Menu = () => {
                 <ul className="flex justify-between">
                     <a
                         onClick={() =>
-                            window.scrollTo({ top: 600, behavior: 'smooth' })
+                            mQuery.matches === false
+                                ? window.scrollTo({
+                                      top: 600,
+                                      behavior: 'smooth',
+                                  })
+                                : window.scrollTo({
+                                      top: 600,
+                                      behavior: 'smooth',
+                                  })
                         }
                         className={`${
                             scrollValue !== 0
@@ -38,7 +46,15 @@ const Menu = () => {
                     </a>
                     <a
                         onClick={() =>
-                            window.scrollTo({ top: 2144, behavior: 'smooth' })
+                            mQuery.matches === false
+                                ? window.scrollTo({
+                                      top: 2168,
+                                      behavior: 'smooth',
+                                  })
+                                : window.scrollTo({
+                                      top: 1568,
+                                      behavior: 'smooth',
+                                  })
                         }
                         className={`${
                             scrollValue !== 0

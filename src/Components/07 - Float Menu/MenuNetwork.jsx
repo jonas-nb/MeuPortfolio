@@ -6,7 +6,6 @@ import './menuAnimate.css';
 
 const MenuNetwork = () => {
     const { scrollValue } = useContext(ScrollContext);
-    console.log(scrollValue);
 
     return (
         <div

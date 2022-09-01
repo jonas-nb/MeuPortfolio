@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import Menu from './Components/01 - Menu/Menu';
 import Presentation from './Components/02 - Apresentation/Presentation';
 import About from './Components/03 - About/About';
