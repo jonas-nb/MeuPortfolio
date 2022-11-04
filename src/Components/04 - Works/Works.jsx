@@ -77,6 +77,17 @@ const Works = () => {
                     bg="https://dondoca.com.br/wp-content/uploads/2021/07/dondoca_com_br-moda-anos-90-pecas-retro-para-montar-looks-modernos-moda-anos-90-inspiracoes.jpg"
                     position="bg-center"
                 />
+                <Card
+                    titulo="Cartão de Crédito"
+                    sobre="Demonstração de compra com cartão de crédito"
+                    link="https://curious-piroshki-df3802.netlify.app/"
+                    github="https://github.com/jonas-nb/Interactive-Card-Details-Form"
+                    gradiente="bg-gradient-to-b from-purple-400 via-purple-600 to-purple-900"
+                    icon="https://cdn-icons-png.flaticon.com/512/3190/3190478.png"
+                    bgicon=""
+                    bg="https://www.willbank.com.br/images/bg-cartao-credito.jpg"
+                    position="bg-center"
+                />
             </div>
         </div>
     );
