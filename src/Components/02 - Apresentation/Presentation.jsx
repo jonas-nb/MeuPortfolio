@@ -8,7 +8,7 @@ const Presentation = () => {
     return (
         <div className="w-full bg-[#212529] pt-28 h-[35rem] rounded-b-lg drop-shadow-2xl z-40">
             <article className=" text-center text-[#E9ECEF]">
-                <h3 className="wobble-hor-bottom">Olá Mundo 🌐!</h3>
+                <h3>Olá Mundo 🌐!</h3>
                 <h1 className="text-focus-in mt-5 flex flex-col text-2xl">
                     Me Chamo
                     <span className="text-[#fff] text-4xl lg:text-[5rem] lg:pt-5 tracking-[-.08rem]">
@@ -33,7 +33,7 @@ const Presentation = () => {
                     </Tooltip>
                 </div>
             </article>
-            <div className="bounce-in-top m-auto mt-0 flex justify-center items-center relative top-10">
+            <div className="m-auto mt-0 flex justify-center items-center relative top-10">
                 <img
                     className="w-80 drop-shadow-md"
                     src={Illustration}
