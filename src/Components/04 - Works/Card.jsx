@@ -40,7 +40,7 @@ const Card = (props) => {
                     {props.sobre}
                 </p>
                 {/* link para o projeto em produção */}
-                <div className="w-28 relative m-auto flex items-center justify-between text-[0.8rem] ">
+                <div className="w-full relative m-auto flex flex-col items-center justify-between text-[0.8rem] ">
                     <a
                         target={'_blank'}
                         className="text-[1.4rem] text-[#e6e6e6] hover:text-white drop-shadow-md"
@@ -53,7 +53,7 @@ const Card = (props) => {
                         href={props.link}
                         target={'_blank'}
                     >
-                        Veja Mais
+                        Visite o Projeto clicando aqui!
                     </a>
                 </div>
             </div>
