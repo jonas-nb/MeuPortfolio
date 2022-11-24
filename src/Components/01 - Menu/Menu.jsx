@@ -2,6 +2,7 @@ import { useContext, useEffect, useState } from 'react';
 import LogoBlack from '../../assets/images/2.png';
 import LogoWhite from '../../assets/images/1.png';
 import { ScrollContext } from '../../Contexts/ScrollContext';
+import { ScrollTo } from 'react-scroll-to';
 
 const Menu = () => {
     const { scrollValue, mQuery } = useContext(ScrollContext);
@@ -24,58 +25,44 @@ const Menu = () => {
             />
             <nav className="m-auto w-60 sm:w-72 sm:pr-10 sm:text-lg">
                 <ul className="flex justify-between">
-                    <a
-                        onClick={() =>
-                            mQuery.matches === false
-                                ? window.scrollTo({
-                                      top: 600,
-                                      behavior: 'smooth',
-                                  })
-                                : window.scrollTo({
-                                      top: 600,
-                                      behavior: 'smooth',
-                                  })
-                        }
-                        className={`${
-                            scrollValue !== 0
-                                ? 'text-black hover:text-[#06404b]'
-                                : ' text-white hover:text-[#74ff92]'
-                        }  drop-shadow-md font-[600] transition duration-1000 ease-linear all cursor-pointer`}
-                    >
-                        Sobre
-                    </a>
-                    <a
-                        onClick={() =>
-                            mQuery.matches === false
-                                ? window.scrollTo({
-                                      top: 2168,
-                                      behavior: 'smooth',
-                                  })
-                                : window.scrollTo({
-                                      top: 1568,
-                                      behavior: 'smooth',
-                                  })
-                        }
-                        className={`${
-                            scrollValue !== 0
-                                ? 'text-black hover:text-[#06404b]'
-                                : ' text-white hover:text-[#74ff92]'
-                        }  drop-shadow-md font-[600] transition duration-1000 ease-linear all cursor-pointer`}
-                    >
-                        Trabalhos
-                    </a>
-                    <a
-                        onClick={() =>
-                            window.scrollTo({ top: 3744, behavior: 'smooth' })
-                        }
-                        className={`${
-                            scrollValue !== 0
-                                ? 'text-black hover:text-[#06404b]'
-                                : ' text-white hover:text-[#74ff92]'
-                        }  drop-shadow-md font-[600] transition duration-1000 ease-linear all cursor-pointer`}
-                    >
-                        Contato
-                    </a>
+                    <ScrollTo>
+                        {({ scroll }) => (
+                            <a
+                                className="font-[800] transition-all duration-500 text-[#0abd78] hover:text-[#0ae28f] hover:underline"
+                                onClick={() => scroll({ x: 20, y: 600 })}
+                            >
+                                Sobre
+                            </a>
+                        )}
+                    </ScrollTo>
+                    <ScrollTo>
+                        {({ scroll }) => (
+                            <a
+                                className="font-[800] transition-all duration-500 text-[#0abd78] hover:text-[#0ae28f] hover:underline"
+                                onClick={() =>
+                                    mQuery.matches === false
+                                        ? scroll({ x: 20, y: 2168 })
+                                        : scroll({ x: 20, y: 1568 })
+                                }
+                            >
+                                Trabalhos
+                            </a>
+                        )}
+                    </ScrollTo>
+                    <ScrollTo>
+                        {({ scroll }) => (
+                            <a
+                                className="font-[800] transition-all duration-500 text-[#0abd78] hover:text-[#0ae28f] hover:underline"
+                                onClick={() =>
+                                    mQuery.matches === false
+                                        ? scroll({ x: 20, y: 4100 })
+                                        : scroll({ x: 20, y: 3744 })
+                                }
+                            >
+                                Contatos
+                            </a>
+                        )}
+                    </ScrollTo>
                 </ul>
             </nav>
         </div>
