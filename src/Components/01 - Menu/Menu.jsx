@@ -23,22 +23,22 @@ const Menu = () => {
                 src={scrollValue !== 0 ? LogoBlack : LogoWhite}
                 alt="logo do projeto"
             />
-            <nav className="m-auto w-60 sm:w-72 sm:pr-10 sm:text-lg">
-                <ul className="flex justify-between">
+            <nav className="m-auto w-full sm:w-5/16 lg:w-full">
+                <ul className="flex m-auto text-sm lg:text-2xl w-12/12 items-center justify-center">
                     <ScrollTo>
                         {({ scroll }) => (
-                            <a
-                                className="font-[800] transition-all duration-500 text-[#0abd78] hover:text-[#0ae28f] hover:underline"
+                            <button
+                                className="bg-transparent hover:border-transparent font-[800] transition-all duration-500 text-[#0abd78] hover:text-[#0ae28f] hover:underline"
                                 onClick={() => scroll({ x: 20, y: 600 })}
                             >
                                 Sobre
-                            </a>
+                            </button>
                         )}
                     </ScrollTo>
                     <ScrollTo>
                         {({ scroll }) => (
-                            <a
-                                className="font-[800] transition-all duration-500 text-[#0abd78] hover:text-[#0ae28f] hover:underline"
+                            <button
+                                className="bg-transparent hover:border-transparent font-[800] transition-all duration-500 text-[#0abd78] hover:text-[#0ae28f] hover:underline"
                                 onClick={() =>
                                     mQuery.matches === false
                                         ? scroll({ x: 20, y: 2168 })
@@ -46,13 +46,13 @@ const Menu = () => {
                                 }
                             >
                                 Trabalhos
-                            </a>
+                            </button>
                         )}
                     </ScrollTo>
                     <ScrollTo>
                         {({ scroll }) => (
-                            <a
-                                className="font-[800] transition-all duration-500 text-[#0abd78] hover:text-[#0ae28f] hover:underline"
+                            <button
+                                className="bg-transparent hover:border-transparent font-[800] transition-all duration-500 text-[#0abd78] hover:text-[#0ae28f] hover:underline"
                                 onClick={() =>
                                     mQuery.matches === false
                                         ? scroll({ x: 20, y: 4100 })
@@ -60,7 +60,7 @@ const Menu = () => {
                                 }
                             >
                                 Contatos
-                            </a>
+                            </button>
                         )}
                     </ScrollTo>
                 </ul>
