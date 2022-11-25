@@ -42,13 +42,6 @@ const Card = (props) => {
                 {/* link para o projeto em produção */}
                 <div className="w-full relative m-auto flex flex-col items-center justify-between text-[0.8rem] ">
                     <a
-                        target={'_blank'}
-                        className="text-[1.4rem] text-[#e6e6e6] hover:text-white drop-shadow-md"
-                        href={props.github}
-                    >
-                        <FaGithub />
-                    </a>
-                    <a
                         className={` hover:underline text-white hover:text-white drop-shadow-md text-[0.9rem]`}
                         href={props.link}
                         target={'_blank'}
