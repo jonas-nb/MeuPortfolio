@@ -4,7 +4,7 @@ import { FiDownloadCloud } from 'react-icons/fi';
 
 const Presentation = () => {
     return (
-        <div className="w-full h-screen sm:h-[30rem] md:h-screen pt-32 sm:pt-24 md:pt-52 text-4xl sm:text-4xl md:text-6xl lg:text-6xl font-[600] text-center bg-[#212529] flex flex-col">
+        <div className="w-full h-screen sm:h-[30rem] md:h-screen pt-32 sm:pt-24 md:pt-52 lg:pt-44 text-4xl sm:text-4xl md:text-6xl font-[600] text-center bg-[#212529] flex flex-col">
             <div>
                 <span className="block text-white">Olá Mundo,</span>
                 <span className="text-emerald-300">
