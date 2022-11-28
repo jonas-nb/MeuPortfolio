@@ -28,7 +28,7 @@ const Menu = () => {
                     <ScrollTo>
                         {({ scroll }) => (
                             <button
-                                className="bg-transparent hover:border-transparent font-[800] transition-all duration-500 text-[#0abd78] hover:text-[#0ae28f] hover:underline"
+                                className="focus:outline-none bg-transparent hover:border-transparent font-[800] transition-all duration-500 text-[#0abd78] hover:text-[#0ae28f] hover:underline"
                                 onClick={() => scroll({ x: 20, y: 600 })}
                             >
                                 Sobre
@@ -38,7 +38,7 @@ const Menu = () => {
                     <ScrollTo>
                         {({ scroll }) => (
                             <button
-                                className="bg-transparent hover:border-transparent font-[800] transition-all duration-500 text-[#0abd78] hover:text-[#0ae28f] hover:underline"
+                                className="focus:outline-none bg-transparent hover:border-transparent font-[800] transition-all duration-500 text-[#0abd78] hover:text-[#0ae28f] hover:underline"
                                 onClick={() =>
                                     mQuery.matches === false
                                         ? scroll({ x: 20, y: 2168 })
@@ -52,7 +52,7 @@ const Menu = () => {
                     <ScrollTo>
                         {({ scroll }) => (
                             <button
-                                className="bg-transparent hover:border-transparent font-[800] transition-all duration-500 text-[#0abd78] hover:text-[#0ae28f] hover:underline"
+                                className="focus:outline-none bg-transparent hover:border-transparent font-[800] transition-all duration-500 text-[#0abd78] hover:text-[#0ae28f] hover:underline"
                                 onClick={() =>
                                     mQuery.matches === false
                                         ? scroll({ x: 20, y: 4100 })

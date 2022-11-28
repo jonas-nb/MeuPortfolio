@@ -1,5 +1,5 @@
 import React from 'react';
-import Card from './Card';
+import CardComponent from './CardComponent';
 
 /* 
 guia props
@@ -16,13 +16,13 @@ github = recebe o endereço do code do projeto
 
 const Works = () => {
     return (
-        <div className="mt-10 pt-10 pb-10 bg-[#e9e9e953] rounded-md">
+        <div className="flex flex-col items-center  mt-10 pt-10 pb-10 bg-[#e9e9e953] rounded-md ">
             <h1 className="text-center text-[2.4rem] font-[600] drop-shadow-md">
                 Trabalhos
             </h1>
 
-            <div className="lg:grid lg:grid-cols-2 xl:grid-cols-3">
-                <Card
+            <div className="md:grid lg:grid md:grid-cols-2 lg:grid-cols-3 md:gap-10 lg:gap-10">
+                <CardComponent
                     github="https://github.com/jonas-nb/PokeInit"
                     link="https://fancy-chebakia-587538.netlify.app/"
                     titulo="Pokeinit"
@@ -30,10 +30,10 @@ const Works = () => {
                     position="bg-center"
                     icon="https://www.pngall.com/wp-content/uploads/4/Pokemon-Pokeball-PNG-Photo.png"
                     bgicon="bg-yellow-200"
-                    bg="https://images5.alphacoders.com/473/thumbbig-473846.jpg"
+                    bg="https://images.pexels.com/photos/9280754/pexels-photo-9280754.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                     gradiente="bg-gradient-to-t from-yellow-600 via-yellow-500 to-yellow-400"
                 />
-                <Card
+                <CardComponent
                     github="https://github.com/jonas-nb/AdviceApp"
                     link="https://magnificent-pony-9c051e.netlify.app/"
                     titulo="Advice"
@@ -44,7 +44,7 @@ const Works = () => {
                     bg="https://images.unsplash.com/photo-1598944999410-e93772fc48a5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=578&q=80"
                     gradiente="bg-gradient-to-t from-zinc-900 via-zinc-700 to-zinc-600"
                 />
-                <Card
+                <CardComponent
                     titulo="Formulário"
                     sobre="Formulário de validação para teste"
                     link="https://whimsical-piroshki-fb2a8b.netlify.app/"
@@ -55,7 +55,7 @@ const Works = () => {
                     bg="https://kinsta.com/pt/wp-content/uploads/sites/3/2020/01/formularios-wordpress-1024x512.png"
                     position="bg-bottom"
                 />
-                <Card
+                <CardComponent
                     titulo="Avaliação"
                     sobre="Componente de avaliação com escolha de nota"
                     link="https://luminous-cat-c95749.netlify.app/"
@@ -66,7 +66,7 @@ const Works = () => {
                     bg="https://s24534.pcdn.co/carreira-sucesso/wp-content/uploads/sites/3/2022/02/tipode-de-avaliacao-de-desempenho.jpg"
                     position="bg-center"
                 />
-                <Card
+                <CardComponent
                     titulo="LandingPage"
                     sobre="Cadastro de email na 'Base Apparel'"
                     link="https://neon-haupia-790ccd.netlify.app/"
@@ -74,10 +74,10 @@ const Works = () => {
                     gradiente="bg-gradient-to-b from-rose-400 via-rose-600 to-rose-900"
                     icon="https://icon-library.com/images/b-icon/b-icon-14.jpg"
                     bgicon=""
-                    bg="https://dondoca.com.br/wp-content/uploads/2021/07/dondoca_com_br-moda-anos-90-pecas-retro-para-montar-looks-modernos-moda-anos-90-inspiracoes.jpg"
+                    bg="https://images.pexels.com/photos/13722242/pexels-photo-13722242.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                     position="bg-center"
                 />
-                <Card
+                <CardComponent
                     titulo="Cartão de Crédito"
                     sobre="Demonstração de compra com cartão de crédito"
                     link="https://curious-piroshki-df3802.netlify.app/"
@@ -85,7 +85,7 @@ const Works = () => {
                     gradiente="bg-gradient-to-b from-purple-400 via-purple-600 to-purple-900"
                     icon="https://cdn-icons-png.flaticon.com/512/3190/3190478.png"
                     bgicon=""
-                    bg="https://www.willbank.com.br/images/bg-cartao-credito.jpg"
+                    bg="https://images.pexels.com/photos/4482900/pexels-photo-4482900.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                     position="bg-center"
                 />
             </div>
