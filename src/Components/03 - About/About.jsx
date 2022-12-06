@@ -14,7 +14,7 @@ descrição = adciona um parágrafo para descrever habilidade */
 
 const About = () => {
     return (
-        <div className="m-auto mt-36 lg:mt-48">
+        <div className="m-auto mt-16 ">
             <h1 className="text-center text-[2.4rem] font-[600] drop-shadow-md">
                 O que faço!
             </h1>

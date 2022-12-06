@@ -22,15 +22,15 @@ const Send = () => {
                 alt="ícone de avião de papel simbolizando envio de mensagem"
             />
             <div className="mt-5 flex flex-col sm:flex-row justify-around items-center text-lg font-[600] sm:text-2xl">
-                <div className="flex flex-col justify-center items-center">
-                    <h1 className=" flex items-center text-xl sm:text-3xl">
+                <div className="flex flex-col">
+                    <h1 className=" flex items-center text-xl sm:text-xl">
                         WhatsApp/Telefone {<AiOutlineWhatsApp />}
                     </h1>
                     <p>+55 21 98214-3587</p>
                 </div>
 
-                <div className="mt-5 sm:mt-0  flex flex-col justify-center items-center">
-                    <h1 className="flex items-center text-xl sm:text-3xl">
+                <div className="mt-5 sm:mt-0 ">
+                    <h1 className="flex items-center text-xl sm:text-xl">
                         Email {<AiOutlineMail />}
                     </h1>
                     <p>jonas.nb4@gmail.com</p>
