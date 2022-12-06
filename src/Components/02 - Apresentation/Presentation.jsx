@@ -27,7 +27,10 @@ const Presentation = () => {
                 >
                     CV <FiDownloadCloud className="" />
                 </a>
-                <label className="text-white text-sm" htmlFor="DownloadLink">
+                <label
+                    className="text-white text-sm pt-3"
+                    htmlFor="DownloadLink"
+                >
                     clique no link acima para download e meu currículo
                 </label>
             </div>
