@@ -34,7 +34,7 @@ const Works = () => {
                 <CardComponent
                     bg="https://cdn.pixabay.com/photo/2011/12/14/12/17/galaxy-11098_960_720.jpg"
                     sobre="Web site para apresentar destinos para viagem no espaço, contruido com react o desafio desse projeto é o seu grid"
-                    titulo="Space Tourim"
+                    titulo="Space Tourism"
                     link="http://space-tourism-jonas-nb.vercel.app/"
                     github="https://github.com/jonas-nb/space-tourism"
                     position="bg-center"
