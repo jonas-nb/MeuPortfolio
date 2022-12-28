@@ -4,10 +4,7 @@ import FrondMentor from './FrondMentor';
 
 /* 
 guia props
-bgicon = recebe bg do icon
 bg = recebe background do card (link) 
-icon = recebe imagem do icon
-gradiente = recebe o gradiente do card em tailwind
 position = recebe o background position em tailwind
 titulo = recebe o titulo do projeto
 sobre = recebe uma pequena descrição do projeto
@@ -33,6 +30,14 @@ const Works = () => {
                     bgicon="bg-yellow-200"
                     bg="https://images.pexels.com/photos/9280754/pexels-photo-9280754.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                     gradiente="bg-gradient-to-t from-yellow-600 via-yellow-500 to-yellow-400"
+                />
+                <CardComponent
+                    bg="https://cdn.pixabay.com/photo/2011/12/14/12/17/galaxy-11098_960_720.jpg"
+                    sobre="Web site para apresentar destinos para viagem no espaço, contruido com react o desafio desse projeto é o seu grid"
+                    titulo="Space Tourism"
+                    link="http://space-tourism-jonas-nb.vercel.app/"
+                    github="https://github.com/jonas-nb/space-tourism"
+                    position="bg-center"
                 />
             </div>
             <div>
