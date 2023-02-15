@@ -26,7 +26,7 @@ const Send = () => {
                     <h1 className=" flex items-center text-xl sm:text-xl">
                         WhatsApp/Telefone {<AiOutlineWhatsApp />}
                     </h1>
-                    <p>+55 21 98214-3587</p>
+                    <p>+55 (83) 9 9849-7737</p>
                 </div>
 
                 <div className="mt-5 sm:mt-0 ">

@@ -41,7 +41,7 @@ const CardComponent = (props) => {
                     {props.sobre}
                 </Typography>
             </CardContent>
-            <CardActions>
+            <CardActions className="">
                 <Button size="small" href={props.github}>
                     <CodeIcon />
                 </Button>

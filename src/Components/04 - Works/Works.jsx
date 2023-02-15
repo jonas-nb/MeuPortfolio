@@ -24,7 +24,7 @@ const Works = () => {
                     github="https://github.com/jonas-nb/PokeInit"
                     link="https://fancy-chebakia-587538.netlify.app/"
                     titulo="Pokeinit"
-                    sobre="Construído em react o projeto consome uma api do anime pokemon e apresenta um grid"
+                    sobre="Apresenta um grid com informações de vários personagens da animação pokemon, utilizando as informações da PokéAPI"
                     position="bg-center"
                     icon="https://www.pngall.com/wp-content/uploads/4/Pokemon-Pokeball-PNG-Photo.png"
                     bgicon="bg-yellow-200"
@@ -33,10 +33,20 @@ const Works = () => {
                 />
                 <CardComponent
                     bg="https://cdn.pixabay.com/photo/2011/12/14/12/17/galaxy-11098_960_720.jpg"
-                    sobre="Web site para apresentar destinos para viagem no espaço, contruido com react o desafio desse projeto é o seu grid"
+                    sobre="Web site para apresentar destinos para viagem no espaço"
                     titulo="Space Tourism"
                     link="http://space-tourism-jonas-nb.vercel.app/"
                     github="https://github.com/jonas-nb/space-tourism"
+                    position="bg-center"
+                />
+
+                <CardComponent
+                    bg="https://images.pexels.com/photos/3968211/pexels-photo-3968211.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    sobre="Site em construção, startup de passeios na região litorânea de João Pessoa, a aplicação visa no momento
+                    agendamentos e apresentação dos produtos."
+                    titulo="A Caraunas Turismo"
+                    link="https://caraunas.vercel.app/"
+                    github="https://github.com/jonas-nb/caraunas"
                     position="bg-center"
                 />
             </div>
