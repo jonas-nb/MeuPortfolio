@@ -1,6 +1,8 @@
 import React from 'react';
 import { IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5';
 const Footer = () => {
+    const data = new Date();
+
     return (
         <div className="mt-10  flex flex-col items-center bg-[#000]">
             <div className="mt-10 mb-5 text-4xl  w-28 justify-around flex">
@@ -22,7 +24,7 @@ const Footer = () => {
                 </a>
             </div>
             <div className="font-[400] text-[0.7rem] text-white">
-                Copyright 2022
+                Copyright 2022 - {data.getFullYear()}
             </div>
             <div className="font-[400] text-[0.7rem] text-white">
                 Feito com ❤ e React por Jonas Batista
