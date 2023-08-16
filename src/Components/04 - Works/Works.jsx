@@ -21,32 +21,31 @@ const Works = () => {
 
             <div className="sm:w-11/12 md:grid lg:grid md:grid-cols-2 lg:grid-cols-3 md:gap-10 lg:gap-10">
                 <CardComponent
-                    github="https://github.com/jonas-nb/PokeInit"
-                    link="https://fancy-chebakia-587538.netlify.app/"
-                    titulo="Pokeinit"
-                    sobre="Apresenta um grid com informações de vários personagens da animação pokemon, utilizando as informações da PokéAPI"
+                    github="https://github.com/jonas-nb/tasklist-frontend"
+                    link="https://tasklist-frontend-nine.vercel.app/"
+                    titulo="Todo List"
+                    sobre="Projeto full stack demonstrando um crud, usando react para o frontend e node.js/typescript no backend."
                     position="bg-center"
                     icon="https://www.pngall.com/wp-content/uploads/4/Pokemon-Pokeball-PNG-Photo.png"
                     bgicon="bg-yellow-200"
-                    bg="https://images.pexels.com/photos/9280754/pexels-photo-9280754.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    bg="https://app-cdn.acelitchi.com/prod/app/7/8/2499828684891468071.webp"
                     gradiente="bg-gradient-to-t from-yellow-600 via-yellow-500 to-yellow-400"
                 />
                 <CardComponent
-                    bg="https://cdn.pixabay.com/photo/2011/12/14/12/17/galaxy-11098_960_720.jpg"
-                    sobre="Web site para apresentar destinos para viagem no espaço"
-                    titulo="Space Tourism"
-                    link="http://space-tourism-jonas-nb.vercel.app/"
-                    github="https://github.com/jonas-nb/space-tourism"
+                    bg="https://santibrasfisioterapia.com/wp-content/uploads/2023/06/Design-sem-nome.jpg"
+                    sobre="Placar interativo e gameficado usado para marcar pontos no esporte beach tennis construido com react e typescript."
+                    titulo="Beach Tennis Friend's"
+                    link="https://btf-delta.vercel.app/"
+                    github="https://github.com/jonas-nb/BTF"
                     position="bg-center"
                 />
 
                 <CardComponent
-                    bg="https://images.pexels.com/photos/3968211/pexels-photo-3968211.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                    sobre="Site em construção, startup de passeios na região litorânea de João Pessoa, a aplicação visa no momento
-                    agendamentos e apresentação dos produtos."
-                    titulo="A Caraunas Turismo"
-                    link="https://caraunas.vercel.app/"
-                    github="https://github.com/jonas-nb/caraunas"
+                    bg="https://static.preparaenem.com/2022/10/planeta-terra.jpg"
+                    sobre="Construido com react, esse projeto faz o consumo de uma api com informações de vários locais no mundo."
+                    titulo="Countries"
+                    link="https://countries-sage-xi.vercel.app/"
+                    github="https://github.com/jonas-nb/Countries"
                     position="bg-center"
                 />
             </div>

@@ -20,7 +20,8 @@ const Presentation = () => {
             <div className="flex flex-col font-[400] items-center justify-center">
                 <a
                     id="DownloadLink"
-                    href="https://drive.google.com/uc?export=download&id=1p0A39pHI-VQGADgDYjEqjxJ9MHH5VH_I"
+                    href="https://drive.google.com/uc?export=download&id=1ySS3Nx7smCXDvKHVokUyXruf5fZadqRU
+                    "
                     target={'_blank'}
                     download="CV"
                     class="w-32 h-12 m-auto mt-10  text-xl justify-around flex  items-center cursor-pointer rounded-md bg-emerald-500 text-center font-semibold uppercase text-white transition duration-200 ease-in-out hover:bg-[#464d54] hover:outline hover:outline-emerald-300"

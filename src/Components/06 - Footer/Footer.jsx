@@ -24,7 +24,7 @@ const Footer = () => {
                 </a>
             </div>
             <div className="font-[400] text-[0.7rem] text-white">
-                Copyright 2022 - {data.getFullYear()}
+                Copyright {data.getFullYear()}
             </div>
             <div className="font-[400] text-[0.7rem] text-white">
                 Feito com ❤ e React por Jonas Batista

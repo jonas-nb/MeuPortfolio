@@ -25,7 +25,7 @@ const About = () => {
                         habilidade="Desenvolvimento Web"
                         icone={WebIcon}
                         alt="ícone mostrando uma tela ilustrativa"
-                        descrição="Eu desenvolvo apps com React.js, adoro construir layouts responsivos e interfaces interativas, semânticas e acessíveis."
+                        descrição="Eu desenvolvo soluções performáticas e adoro construir layouts responsivos, interfaces interativas, semânticas e acessíveis."
                     />
                 </div>
                 <div>
@@ -51,7 +51,7 @@ const About = () => {
                         habilidade="Outras Atividades"
                         icone={HobbieIcon}
                         alt="icone mostrando montagem de um quebra cabeça"
-                        descrição="Além de codar e desenvolver, meus principais hobbies são basquete, instrumentos musicais, leitura e séries."
+                        descrição="Além de codar e desenvolver, meus principais hobbies são esportes coletivos, instrumentos musicais e leitura."
                     />
                 </div>
             </div>
