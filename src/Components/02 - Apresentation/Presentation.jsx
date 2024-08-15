@@ -11,17 +11,13 @@ const Presentation = () => {
                     me chamo Jonas Batista,
                 </span>
                 <span className="block text-white ml-3 ">
-                    Eu sou um desenvolvedor
-                    <span className="block underline decoration-emerald-300 ">
-                        front-end
-                    </span>
+                    Eu sou um desenvolvedor de sistemas
                 </span>
             </div>
             <div className="flex flex-col font-[400] items-center justify-center">
                 <a
                     id="DownloadLink"
-                    href="https://drive.google.com/uc?export=download&id=1ySS3Nx7smCXDvKHVokUyXruf5fZadqRU
-                    "
+                    href="https://drive.google.com/uc?export=download&id=1r9WtaaTNRCUSJUSMNgXeBTvYpyq6f2t4"
                     target={'_blank'}
                     download="CV"
                     class="w-32 h-12 m-auto mt-10  text-xl justify-around flex  items-center cursor-pointer rounded-md bg-emerald-500 text-center font-semibold uppercase text-white transition duration-200 ease-in-out hover:bg-[#464d54] hover:outline hover:outline-emerald-300"

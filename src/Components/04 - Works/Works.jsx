@@ -48,6 +48,14 @@ const Works = () => {
                     github="https://github.com/jonas-nb/Countries"
                     position="bg-center"
                 />
+                <CardComponent
+                    bg="https://fia.com.br/wp-content/uploads/2021/05/tipos-de-pesquisa-de-mercado-quais-sao-principais.jpg"
+                    sobre="Projeto para pesquisa eleitoral das eleições do município de Mari-PB, construida com react e firabase, a aplicação visa a facilidade para pesquisa usando dispositivos móveis"
+                    titulo="Pesquisa Eleitoral"
+                    link="https://pesquisa-gamma.vercel.app/"
+                    github="https://github.com/jonas-nb/pesquisa"
+                    position="bg-center"
+                />
             </div>
             <div>
                 <FrondMentor />
